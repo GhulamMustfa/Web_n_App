@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header></header>
+
+    <main>
+        <form action="table.html" method="post">
+            <label for="name">Email:</label>
+            <input type="email" placeholder="Enter your email" required>
+            <br>
+            <label for=""></label>
+            <p>Username:
+                <input type="text" name="username" size="15" maxlength="30" />
+            </p>
+
+            <p>Password:
+                <input type="password" name="password" size="15" maxlength="30" />
+            </p>
+
+            <p>Wat did you tink of think of <em>Form</em>
+                <textarea name="Comments" id="" cols="30" rows="3"></textarea>
+            </p>
+
+            <p>Please select your favorite genre:
+                <br />
+                <input type="radio" name="genre" value="rock" checked="checked" /> Rock
+                <input type="radio" name="genre" value="pop" /> Pop
+                <input type="radio" name="genre" value="jazz" /> Jazz
+            </p>
+
+            <label for="select">Select one of following:</label>
+            <select name="pop" size="1" multiple="multiple">
+                <option value="rock">Rock</option>
+                <option value="pop" selected>Pop</option>
+                <option value="jazz">Jazz</option>
+            </select>
+
+            <p>What is your favorite color?
+                <input type="color" name="color" />
+            </p>
+
+            <p>What is your favorite date?
+                <input type="date" name="date" />
+            </p>
+
+            <p>What is your favorite month?
+                <input type="month" name="month" />
+            </p>
+
+            <p>Please select your favorite music service(s):
+                <br />
+                <input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+                <input type="checkbox" name="service" value="lastfm" /> Last.fm
+                <input type="checkbox" name="service" value="spotify" /> Spotify
+            </p>
+
+            <fieldset>
+                <legend>Contact details</legend>
+                <label>Email:<br />
+                    <input type="text" name="email" /></label><br />
+                <label>Mobile:<br />
+                    <input type="text" name="mobile" /></label><br />
+                <label>Telephone:<br />
+                    <input type="text" name="telephone" /></label>
+            </fieldset>
+
+            <input type="image" name="image"
+                src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                alt="Google Logo" width="auto" height="auto" />
+
+            <button><img src="images/add.gif" alt="add" width="10" height="10" /></button>
+            <input type="hidden" name="bookmark" value="lyrics" />
+
+            <p>choose a file of song</p>
+            <input type="file" name="song">
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer></footer>
+
+</body>
+
+</html>
