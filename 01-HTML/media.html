@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+
+        <h1>Video</h1>
+        <video height="240" width="320" controls muted>
+            <!-- one of the following will work according to browser, if browser cant support ogg, mp3 will work or if mp3 isn't supported ogg will work -->
+            <source src="/resources/video.mp4" type="video/mp4">
+            <source src="/resources/video.ogg" type="video/ogg">
+        </video>
+
+        <h1>Audio</h1>
+        <audio loop controls>
+            <source src="/resources/audio.mp3" type="audio/mp3">
+        </audio>
+
+        <h1>Image</h1>
+        <figure>
+            <img width="320" src="/resources/img.jpg" alt="an image">
+            <figcaption>an image of jpg</figcaption>
+        </figure>
+
+        <form action="">
+            <div>
+                <label for="rating">Rating</label>
+                <input type="range" name="rating" id="rating" min="1" max="5" value="4" list="rating">
+                <datalist id="ratings">
+                    <option value="1" label="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5" label="5"></option>
+                </datalist>
+            </div>
+            <br>
+            <button type="submit">submit rating</button>
+        </form>
+
+    </main>
+
+    <br><br><br>
+    <iframe src="input.html" sandbox allow="payment 'none';camera 'none'; ">
+    </iframe>
+    <br>
+    <br>
+
+<canvas width="640" height="480" id="my_canvas"></canvas>
+
+
+<script src="/03-javascript/animaiton.js"></script>
+</body>
+
+</html>
