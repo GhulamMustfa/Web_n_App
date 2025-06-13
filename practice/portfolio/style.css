@@ -4,20 +4,27 @@
   box-sizing: border-box;
 }
 
-body {
-    margin: 0px;
-    padding: 0px;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    color: white;
+    padding: 10px;
 }
 
-/* .navbar {
+
+/* 
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #333;
     color: white;
+    padding: 2px;
 } */
 
-#hamburger {
+/* #hamburger {
     display: flex;
     margin: 0;
     padding: 0;
@@ -26,4 +33,5 @@ body {
 
 li {
     display: inline;
-}
+} */
+
