@@ -2,25 +2,40 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: cursive;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: grey;
-    color: white;
-    padding: 10px;
+header {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: rgb(28, 32, 31);
 }
 
-/* #hamburger {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+header a{
+  text-decoration: none;
 }
 
-li {
-    display: inline;
-} */
+#logo {
+  color: white;
+}
+
+.nav_links li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.nav_links li a {
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 16px;
+}
 
